@@ -3,24 +3,11 @@ LeetCode Dark Fix is a userscript that adds dark mode to LeetCode's home page, e
 > [!NOTE]
 > Teenager? Join [Hack Club](https://hackclub.com)! This script is part of the 17 hour Hack Club event "FIX IT".
 
-## Demo
-Below is the demo for LeetCode's home page. 
-![](assets/demo.png)
-
 ## Installation
 1. Install a userscript manager like [Tampermonkey](https://www.tampermonkey.net/). (Browsers: [FireFox-based](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/), [Chromium-based](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)).
 2. Install the userscript in: [GreasyFox](https://greasyfork.org/en/scripts/540164-leetcode-dark-fix). 
 3. Click `Install this script`.
 
-## Roadmap
-### To Do
-- [ ] Home page: Drop downs are still in light mode
-- [ ] General: Footer spacers are gone
-- [ ] General: Avoid using CSS generated hashes
-- [ ] Explore: Play icon still in light mode
-- [ ] Explore: Scroll showcase gradient in light mode
-- [ ] Explore: Showcase left right button still in light mode
-- [ ] Explore: Top right corner icons are bleeding
-
-### Future Roadmap
-- Explore: Dark mode for content in the cards
+## Demo
+Below is the demo for LeetCode's home page. 
+![](assets/demo.png)
