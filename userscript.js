@@ -1,13 +1,13 @@
 // ==UserScript==
-// @name LeetCode Dark Mode Fix
+// @name LeetCode Dark Fix
 // @version 1.0.0
 // @author udontur
 // @namespace http://tampermonkey.net/
 // @run-at document-start
 // @include      https://leetcode.com/
 // @include      https://leetcode.com/explore*
-// @include      https://leetcode.com/settings*
-// @description Adds dark mode to LeetCode's home page, explore page, and settings page
+// @include      https://leetcode.com/profile*
+// @description LeetCode Dark Fix is a userscript that adds dark mode to LeetCode's home page, explore page, and settings page because dark theme is unavailable even when the site's offical dark mode is turned on in these pages.
 // @license MIT
 // ==/UserScript==
 
@@ -21,7 +21,26 @@ body {
 p{
   color: var(--dark-gray-70) !important;
 }
-
+a{
+  color: var(--dark-gray-80) !important;
+}
+.title__3Mve{
+  font-size: 20px !important;
+}
+.title__14re{
+  color: var(--dark-gray-80) !important;
+  font-weight: bold !important;
+}
+.container__2Jyj{
+  border-radius: 8px !important;
+  background-color: var(--dark-gray-20) !important;
+}
+.right-wrapper__3rVj{
+  background-color: var(--dark-gray-20) !important;
+}
+.desc__2m9Y{
+  color: var(--dark-gray-80) !important;
+}
 .media-heading{
   color: var(--dark-gray-80) !important;
 }
@@ -98,6 +117,49 @@ footer{
 
 .nav-items__1KWV li:not(:last-child)::after{
   border-right: var(--dark-color-40) !important;
+}
+.row-wrapper__1dH2{
+  border-bottom: 1px solid var(--dark-gray-40) !important;
+}
+.edit__J5pK, edit__NFWF{
+  color: #1890ff !important;
+}
+.action__2DMr{
+  background: none !important;
+  color: #1890ff !important;
+}
+.fa-circle{
+  background: var(--dark-gray-40) !important;
+  color: var(--dark-gray-40) !important;
+  border-radius: 50% !important;
+}
+.active__1IwF{
+  background-color: var(--dark-blue-40) !important;
+}
+.previous>a{
+  background-color: var(--dark-gray-30) !important;
+  border-color: var(--dark-gray-40) !important;
+}
+.next>a{
+  background-color: var(--dark-gray-30) !important;
+  border-color: var(--dark-gray-40) !important;
+}
+.previous>span{
+  background-color: var(--dark-gray-30) !important;
+  border-color: var(--dark-gray-40) !important;
+}
+.next>span{
+  background-color: var(--dark-gray-30) !important;
+  border-color: var(--dark-gray-40) !important;
+}
+.notification-category__2a96{
+  background-color: var(--dark-gray-30) !important;
+}
+.css-18n69cu-Wrapper{
+  color: var(--dark-gray-70) !important;
+}
+.notification-type__3O0k{
+  border-bottom: 1px solid var(--dark-gray-40) !important; 
 }
 `;
 if (typeof GM_addStyle !== "undefined") {
