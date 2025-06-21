@@ -1,14 +1,15 @@
 // ==UserScript==
-// @name LeetCode Dark Fix
-// @version 1.0.0
-// @author udontur
-// @namespace http://tampermonkey.net/
-// @run-at document-start
+// @name         LeetCode Dark Fix
+// @version      1.0-beta
+// @author       udontur
+// @homepage	 https://github.com/udontur/leetcode-dark-fix
+// @namespace    http://tampermonkey.net/
+// @run-at       document-start
 // @include      https://leetcode.com/
 // @include      https://leetcode.com/explore*
 // @include      https://leetcode.com/profile*
-// @description LeetCode Dark Fix is a userscript that adds dark mode to LeetCode's home page, explore page, and settings page because dark theme is unavailable even when the site's offical dark mode is turned on in these pages.
-// @license MIT
+// @description  LeetCode Dark Fix is a userscript that adds dark mode to LeetCode's home page, explore page, and settings page because dark theme is unavailable even when the site's offical dark mode is turned on in these pages.
+// @license      MIT
 // ==/UserScript==
 
 (function() {
