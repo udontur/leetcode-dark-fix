@@ -1,4 +1,5 @@
 # LeetCode Dark Fix
+![Static Badge](https://img.shields.io/badge/GreasyFox-Package?label=Download&color=red&link=https%3A%2F%2Fgreasyfork.org%2Fen%2Fscripts%2F540164-leetcode-dark-fix) ![Static Badge](https://img.shields.io/badge/v1.0--alpha-Package?label=Version&color=blue)
 LeetCode Dark Fix is a userscript that adds dark mode to LeetCode's home page, explore page, and settings page because dark theme is unavailable even when the site's offical dark mode is turned on in these pages.
 > [!NOTE]
 > Teenager? Join [Hack Club](https://hackclub.com)! This script is part of the 17 hour Hack Club event "FIX IT".
