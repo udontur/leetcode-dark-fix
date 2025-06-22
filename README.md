@@ -18,7 +18,7 @@ LeetCode Dark Fix is a userscript that brings dark mode to LeetCode’s home, ex
 1. Install a userscript manager like [Tampermonkey](https://www.tampermonkey.net/).
 - FireFox-based browsers: [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/)
 - Chromium-based browsers: [Chrome Web Store](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
-3. Open the [GreasyFox](https://greasyfork.org/en/scripts/540380-leetcode-dark-fix) link.
+3. Open the [GreasyFox](https://greasyfork.org/en/scripts/540164-leetcode-dark-fix) link.
 4. Click the green button that says `Install this script`.
 
 ## 💾 Demo
