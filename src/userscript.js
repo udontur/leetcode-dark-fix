@@ -26,6 +26,7 @@ let css = `
 }
 
 
+
 /* General */
 body {
   color: var(--text) !important;
@@ -176,6 +177,8 @@ svg>path:nth-child(3) {
   color: var(--link) !important;
 }
 
+
+
 /* Home Page */
 .media-heading {
   color: var(--text) !important;
@@ -221,6 +224,7 @@ hr,
 }
 
 
+
 /* Explore Page */
 .showcase-row::before {
   background: transparent !important;
@@ -263,6 +267,8 @@ hr,
 .scroll-btn {
   opacity: 0.3 !important;
 }
+
+
 
 /* Settings Page */
 body>div:nth-child(11)>div:nth-child(1)>div:nth-child(1)>div:nth-child(1)>div:nth-child(2)>div:nth-child(2)>div:nth-child(1)>div>div:nth-child(1) {
