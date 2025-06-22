@@ -384,7 +384,12 @@ body>div:nth-child(11)>div:nth-child(1)>div:nth-child(1)>div:nth-child(1)>div:nt
 nav>ul>li:not(:last-child)::after {
   border-right: 1px solid var(--dark-gray-50) !important;
 }
+
+#profile-app>div>div>div:nth-child(2)>div>div>div>div>div:not(:last-child){
+  border-bottom: 1px solid var(--button) !important;
+}
 `;
+
 if (typeof GM_addStyle !== "undefined") {
   GM_addStyle(css);
 } else {

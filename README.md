@@ -5,7 +5,7 @@
     <br />
     <br />
     <img alt="Static Badge" src="https://img.shields.io/badge/GreasyFox-Download?label=Download&color=red">
-    <img alt="Static Badge" src="https://img.shields.io/badge/v1.0--alpha-Package?label=version&color=blue">
+    <img alt="Static Badge" src="https://img.shields.io/badge/v1.0-Package?label=version&color=blue">
   </p>
 </div>
 
