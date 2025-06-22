@@ -1,11 +1,11 @@
 <div align="center">
   <h1 align="center">LeetCode Dark Fix</h3>
   <p align="center">
-    ❄️ Welcome to my NixOS Linux Configuration! 
+    🌑 Brings dark mode to LeetCode's home page, explore page, and settings page 
     <br />
     <br />
-    ![Static Badge](https://img.shields.io/badge/GreasyFox-Download?label=Download&color=red&cacheSeconds=https%3A%2F%2Fgreasyfork.org%2Fen%2Fscripts%2F540380-leetcode-dark-fix)
-    ![Static Badge](https://img.shields.io/badge/GreasyFox-Download?label=Download&color=red&cacheSeconds=https%3A%2F%2Fgreasyfork.org%2Fen%2Fscripts%2F540380-leetcode-dark-fix) ![Static Badge](https://img.shields.io/badge/v1.0--alpha-Package?label=version&color=blue)
+    <img alt="Static Badge" src="https://img.shields.io/badge/GreasyFox-Download?label=Download&color=red&cacheSeconds=https%3A%2F%2Fgreasyfork.org%2Fen%2Fscripts%2F540380-leetcode-dark-fix">
+    <img alt="Static Badge" src="https://img.shields.io/badge/v1.0--alpha-Package?label=version&color=blue">
   </p>
 </div>
 
