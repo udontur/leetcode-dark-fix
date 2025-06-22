@@ -6,6 +6,7 @@
     <br />
     <img alt="Static Badge" src="https://img.shields.io/badge/GreasyFox-Download?label=Download&color=red">
     <img alt="Static Badge" src="https://img.shields.io/badge/v1.0-Package?label=version&color=blue">
+    <img alt="Static Badge" src="https://img.shields.io/badge/Dark%20Mode-LeetCode?label=LeetCode&labelColor=%23FA9E23&color=%23B6B2B1">
   </p>
 </div>
 
