@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         LeetCode Dark Fix
-// @version      1.0-beta
+// @version      1.0
 // @author       udontur
 // @homepage	   https://github.com/udontur/leetcode-dark-fix
 // @namespace    http://tampermonkey.net/
@@ -8,7 +8,7 @@
 // @include      https://leetcode.com/
 // @include      https://leetcode.com/explore*
 // @include      https://leetcode.com/profile*
-// @description  LeetCode Dark Fix is a userscript that adds dark mode to LeetCode's home page, explore page, and settings page because dark theme is unavailable even when the site's offical dark mode is turned on in these pages.
+// @description  LeetCode Dark Fix is a userscript that brings dark mode to LeetCode’s home, explore, and settings pages since the official dark mode doesn’t cover these pages yet.
 // @license      MIT
 // ==/UserScript==
 
@@ -44,8 +44,18 @@ span {
 #leetcode-navbar{
   background-color: var(--background-front) !important;
 }
+.block{
+  border-radius: 8px !important;
+}
+.rounded{
+  border-radius: 9px !important;
+}
+
 #leetcode-navbar>div>ul>li>a{
   color: var(--text-desc) !important;
+}
+rect{
+  fill: var(--button) !important;
 }
 .text-text-secondary{
   color: var(--text) !important;
@@ -92,6 +102,7 @@ svg>path:nth-child(3){
   background-color: var(--background-front) !important;
 }
 .ant-dropdown-menu-item>div>div{
+  border-bottom: 1px solid var(--button) !important;
   background: var(--background-front) !important;
 }
 .ant-dropdown-menu-item>div{
@@ -109,6 +120,9 @@ svg>path:nth-child(3){
 .ant-dropdown-menu-item>a:hover{
   background: var(--background-front) !important;
 }
+.ant-dropdown-menu-item-active{
+  background: none !important;
+}
 .ant-dropdown-menu{
   background: var(--background-front) !important;
 }
@@ -119,10 +133,15 @@ svg>path:nth-child(3){
   background: var(--background-front) !important;
 }
 .ant-dropdown>div>div{
+  border-top: 1px solid var(--button) !important;
   background: var(--background-front) !important;
 }
-
-
+.ant-dropdown-menu-item>div>div>div{
+  color: var(--text) !important;
+}
+.ant-dropdown-menu-item>div>div>div>a{
+  color: var(--link) !important;
+}
 
 /* Home Page */
 .media-heading{
@@ -236,6 +255,12 @@ body > div:nth-child(11) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1
 body > div:nth-child(11) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) >div:nth-child(2) >div>div>div>div>div>div>div:nth-child(2){
   color: var(--text-desc) !important;
 }
+.Select-value > span{
+  color: var(--button) !important;
+}
+.Select-placeholder{
+  color: var(--dark-gray-50) !important;
+}
 body > div:nth-child(11) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) >div:nth-child(2) >div>div>div>div>div>div>div:nth-child(3){
   color: var(--link) !important;
   background-color: transparent !important;
@@ -266,6 +291,15 @@ body > div:nth-child(11) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1
   background-color: var(--link) !important;
 }
 body > div:nth-child(11) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div{  border-bottom: 1px solid var(--button) !important;
+}
+.bg-success{
+  background-color: #a4df8b !important;
+}
+.text-success{
+  color: #1a6f1a !important
+}
+nav > ul > li:not(:last-child)::after{
+  border-right: 1px solid var(--dark-gray-50) !important;
 }
 `;
 if (typeof GM_addStyle !== "undefined") {
