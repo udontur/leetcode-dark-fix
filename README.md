@@ -1,4 +1,4 @@
-# LeetCode Dark Fix
+# 🌑 LeetCode Dark Fix
 Adds Dark mode to LeetCode's home page, explore page, and settings page because LeetCode somehow doesn't have it (as of June 2025).
 
 ![](assets/demo.png)
